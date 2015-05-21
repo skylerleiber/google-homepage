@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Google</title>
+
+<style>
+ul
+{
+	list-style-type: none;
+}
+nav ul {
+	float: right;
+	margin: 12px 10px 0 0;
+}
+nav li {
+	display: inline;
+	padding: 0 5px;
+	font-family: arial;
+}
+nav a {
+	text-decoration: none;
+	color: rgba(68, 68, 68, 1);
+	font-size: 13px;
+	font-family: arial;
+	font-weight: 300;
+}
+a:hover {
+	text-decoration: underline;
+}
+#search img {
+	width: 270px;
+	position: absolute;
+	top: 192px;
+	left: 505px;
+}
+#search input {
+	position: absolute;
+	top: 312px;
+	left: 357px;
+	width: 570px;
+	height: 25px;
+	font-size: 16px;
+	padding-left: 5px;
+}
+#search_button {
+	position: absolute;
+	top: 355px;
+	left: 527px;
+	background: rgba(240, 240, 240, 1);
+	border: solid 1px rgba(210, 210, 210, 1);
+	height: 30px;
+	width: 97px;
+	border-radius: 3%;
+	font-weight: bold;
+}
+#lucky_button {
+	position: absolute;
+	top: 355px;
+	left: 638px;
+	background: rgba(240, 240, 240, 1);
+	border: solid 1px rgba(210, 210, 210, 1);
+	height: 30px;
+	width: 110px;
+	border-radius: 3%;
+	font-weight: bold;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+	border-top: solid 1px #d9d9d9;
+	padding: 0;
+}
+footer a {
+	text-decoration: none;
+	color: rgba(100, 100, 100, 1);
+	font-size: 13px;
+	font-family: arial;
+	font-weight: 300;
+}
+#footer-left {
+	float: left;
+	position: relative;
+	margin: auto 0;
+	top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+#footer-left li {
+	display: inline;
+	padding: 0 13px;
+}
+#footer-right {
+	float: right;
+	position: relative;
+	margin: auto 0;
+	top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+#footer-right li {
+	display: inline;
+	padding: 0 13px;
+}
+</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href='#'>+Skyler</a></li>
+			<li><a href='#'>Gmail</a></li>
+			<li><a href='#'>Images</a></li>
+			<li><a href='#'>Grid</a></li>
+			<li><a href='#'>Bell</a></li>
+			<li><a href='#'>Plus Sign</a></li>
+			<li><a href='#'>Avatar</a></li>
+		</ul>
+	</nav>
+	<div id='search'>
+	  <img src='https://www.google.com/images/srpr/logo11w.png' alt='Google'>
+	  <input height='50' type='text' name='search' size='70'>
+	  <button id='search_button' name='search'>Google Search</button>
+	  <button id='lucky_button' name='lucky'>I'm Feeling Lucky</button>
+	</div>
+	<footer>
+		<ul id='footer-left'>
+			<li><a href='#'>Advertising</a></li>
+			<li><a href='#'>Business</a></li>
+			<li><a href='#'>About</a></li>
+		</ul>
+		<ul id='footer-right'>
+			<li><a href='#'>Privacy</a></li>
+			<li><a href='#'>Terms</a></li>
+			<li><a href='#'>Settings</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
